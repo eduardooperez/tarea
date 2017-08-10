@@ -68,5 +68,93 @@ Actualmente se buscan nuevas y mejores maneras para poder interactuar con una co
 
 
 
+---------------------------------------------------------------BASE DE DATOS---------------------------------------------------------
+
+Datos:
+Los datos corresponden a a informacion que por si sola es irrevelante , no dicen nada de el porque de algo y no estan orientados para realizar alguna accion, son siemplemente datos sin contexto alguno que todavia no nos ayudan a la toma de decisiones.
+
+Informacion:
+
+La informacion es un conjunto de datos procesados y que contiendn una revelancia y es de utilidad para la toma de desiciones los datos pueden convertirse en informacion con los siguientes atrivutos
+
+Contextualizando: se conoce el contexto el cual seran utiizados
+Categorizando: se conocen las medidas con las cuales seran utilizados
+Calcuando: Puede que los datos se procesaron matematicamente.
+Corrigiendo: Se eliminan errores
+Condensando: se resumen los datos de manera que sea de mejor entendimiento.
+
+
+Conocimiento:
+
+Es loq ue resulta de integrar datos y la informacion permitiendo de este modo aplicarla en la toma de desiciones.
+
+“Un número de teléfono, una fecha o un nombre son datos, y por sí mismos no tienen ningún valor informativo, pero cuando los relacionamos entre sí generamos información. Sin embargo, la información solo es útil cuando la utilizamos para hacer algo, incorporándola a nuestra personalidad para convertirla en conocimiento(Michael Cooley ,1987)” 
+
+
+Relacion entre Datos , informacion y conocimiento
+
+La relacion de estos tres conceptos es siemple los datos son una unidad de elementos desordenados o sin revelancia para tomar desiciones  un dato no nos dice nada de el porque de las cosas de tal modo que para convertirse en informacion se nesesitan agregar contexto o algo que para nosotros tenga un sentido , de tal modo pasamos a el conocimiento que es la mezcla de datos e informacion que nos serviran para la toma de deciciones.
+
+Diferencias:
+
+Dato -informacion como se comento anteriormente los datos simplemente son elementos que no nos dicen nada al respecto de como hacer o actuar si no para eso debemos convertirlos en informacion y de tal modo se podra tener sentido alguno y poder tomar acciones posteriores.
+
+
+
+
+
+
+
+Aplicaciones de software que no se nesesita una base de datos:
+
+Programa de Operacionea aritmeticas
+
+Una simple aplicacion de software de operaciones aritmeticas por ejemplo una suma no es nesesario que se utilize una base de datos para su operacion, es posible que si se quieren almacenar datos de las operaciones sera nesesario una base de datos 
+
+Paint
+Es una aplicacion de software de animacion , dibujo en esta aplicacion no es necesario a utilizacion de base de datos ya que no carga datos de algun lugar si no que el usuario va creando sus dibujo , no se nesesita montar una base de datos para su funcinamiento.
+
+Caledario digital
+
+Esta aplicacion de software no nesesita una base de datos ya que tiene cargados los datos programados anteriormente.
+
+Procesador de texto
+
+Esta aplicacion nos deja realizar textos y documentos no nesesita una base de datos porque es un programa previamente elaborado por un programador.
+
+
+Sticky notes
+Aplicacion de software que nos permite crear notas en el escritorio esta aplicacion no utiliza base de datos ya que no carga datos ni hace llamadas a ninguna base de datos.
+
+
+
+
+Aplicaciones de software que  se nesesita una base de datos:
+
+Agenda de contactos
+
+En este programa se utiliza una base de datos donde se pueden guardar varios tipos de informacins ya sea Numero de telefono nombre de contacto direccion etc.  Esta aplicacion debe utilizarse forzosamente una base de datos ala cual amacenara nuestros datos y los tendrems disponibles en cualquier lugar si tenemos acceso a la base de datos.
+
+Pagina web 
+
+La utilizacion de base de datos en paginas web es indispenzable ya que si tenemos un gestor de perfiles ya sea invitado administrador etc, tendremos que almacenar y validar esos datos mediante controladores que validara y compararan los datos que se cargen con  la base de datos y de este modo saber si es invitado administrador o cualquier otro perfil, sin una base de datos la pagina web no podria funcionar de manera adecuada.
+
+Control de Informacion (Bancos)
+
+La gestion de informacion es muy importante y tener donde almacenarla es primordial lo cual los servicios bancarios cuentan con bases de datos donde guardan informacion critica para su funcionamiento, de otra manera sin una base de datos se tendria que tener toda la informacion fisica lo cual seria un trabaj dificil y extenso.
+
+Gestion de Tienda(departamental etc)
+
+En este programa de software se utiliza una base de datos para tener un control del inventario de la tienda de la cantidad de objetos que tienen de cada producto al igual que alguna descripcion y el precio de este .
+
+
+
+Siseuc
+
+Este aplicacion de la universidad de colima cuenta con una base de datos para almacenar toda la informacion de calificaciones usuarios(alumnos y profesores) y de todo tipo de datos que se utilizen en la plataforma.
+
+
+
+
 
 
