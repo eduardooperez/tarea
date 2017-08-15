@@ -9,6 +9,9 @@
 		
 		Interaccion humano computador actividad(clase)
 
+Se puede definir el concepto de interacción como una instancia de comunicación bidireccional entre dos agentes (persona-persona, persona-objeto, objeto-objeto) que está supeditada necesariamente a la idea de acción-reacción.
+
+ Es decir, la interacción se logra cuando un ente emite una señal al otro (acción) y obtiene una respuesta por parte de este (reacción). 
 Acción, relación o influencia recíproca entre dos o más personas o cosas.
 "programas sobre la interacción del hombre y su medio ambiente; en la enseñanza es importante la interacción entre el profesor y los estudiantes; la interacción entre algunos medicamentos es perjudicial para la salud"
 
