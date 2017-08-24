@@ -62,4 +62,52 @@ public class tarea {
 
 }
 
+--------------------------------------------------------------------------------------------------------------------------------------
+Cadenas y velocidades
+import java.util.Scanner;
+
+
+
+
+public class tarea {
+	public void Cadena(){
+		Scanner scan= new Scanner(System.in);
+			System.out.println("Ingresa Nombre");
+		String a = scan.nextLine();
+			System.out.println("Buenos Dias "+ a);
+	}	
+	
+	public void GradosCentigrados(){
+		double F,C;
+		Scanner scan= new Scanner(System.in);
+			System.out.println("Ingresa Temperatura");
+		 C = scan.nextInt();
+		 
+		F=32+(9*C/5);			
+			System.out.println("Temperatura en Fahrenheit " + F);
+			System.out.println("Fin Metodo GradosCentigrados");
+	}
+	
+	public void Velocidad(){
+		double velocidad;
+		Scanner scan= new Scanner(System.in);
+			System.out.println("Ingresa Velocidad");
+		 velocidad = scan.nextInt();		 
+		 	System.out.println(velocidad+"KM/H "+ "=" +velocidad*1000/3600+"m/s" );
+		 	
+		
+		System.out.println("Fin Metodo Circunferencia");
+	}
+	public static void main(String[]args){
+		tarea t1= new tarea();
+		t1.Cadena();
+		t1.GradosCentigrados();
+		t1.Velocidad();
+		
+		
+	}
+
+}
+
+
 
