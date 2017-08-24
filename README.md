@@ -187,6 +187,139 @@ public class tarea {
 		System.out.println ("en el tango hay de 1 a "+ b + count+  "numeros primoer"); 
 		
 	}
+	
+	public void Serie(){
+		for(int a=0;a<=9;a++){
+			for(int b=0;b<=9;b++){
+				for(int c=0;c<=9;c++){
+					for(int d=0;d<=9;d++){
+						for(int e=0;e<=9;e++){
+							if(a==3)
+								System.out.print("E");
+							else
+								System.out.print(a);
+							if(b==3)
+								System.out.print("E");
+							else
+								System.out.print(b);
+							if(c==3)
+								System.out.print("E");
+							else
+								System.out.print(c);
+							if(d==3)
+								System.out.print("E");
+							else
+								System.out.print(d);
+							if(e==3)
+								System.out.print("E");
+							else
+								System.out.println(e);
+							System.out.println("   ");
+													
+						}
+						
+					}
+					
+				}
+				
+			}
+			
+		}
+		
+		
+	}
+	
+	public void Vectores(){
+		int array[]= new int[5];
+		Scanner sc= new Scanner(System.in);
+		for(int i=0;i<5;i++){
+			System.out.println("Escribir numero");
+			array[i] = sc.nextInt();
+			System.out.println(array[0]+" "+array[1]+" "+array[2]+" "+array[3]+" "+array[4]);
+		}
+		
+		
+	}
+	public void Vectores1(){
+		int array[]= new int[5];
+		Scanner sc = new Scanner(System.in);
+		int sum1=0,sum2=0,count1=0,count2=0,count3=0;
+		  for(int i=0;i<5;i++){
+			  System.out.println("Introduccir numero");
+			  int a=sc.nextInt();
+			  		  
+		  }
+		  for(int i=0;i<5;i++){
+			  if(array[i]==0)
+				  count3++;
+			  else{
+				  if(array[i]>0){
+					  sum1=sum1+array[i];
+					  count1++;					  
+				  }
+				  else{
+					  sum2=sum2+array[i];
+					  count2++;
+					  
+				  }
+			  }
+			  
+			  if(count1==0)
+				  System.out.println("no promedio numeros pos");
+			  else
+				  System.out.println(" prmedio numeros pos"+ sum1/count1);
+			  if (count2==0)
+			  System.out.println("no promedio numeros negativos");
+			  else
+				  System.out.println(" promedio numeros negativos"+sum2/count2);
+			 
+				  System.out.println("Cantidad e cero"+count3);
+		  }
+		 
+			  
+		
+		
+	}
+	
+	public void Vectores2(){
+		Scanner sc= new Scanner(System.in);
+		int array[]= new int[5];
+		
+		
+		
+	}
+	
+	public void Vectores3(){
+		int array[] = new int[5];
+		Scanner sc= new Scanner(System.in);
+		for(int i =0;i<5;i++){
+			System.out.print("Meter numer");
+			array[i]= sc.nextInt();
+			}
+		System.out.print("inversa");
+		for(int i =4;i>=0;i--){
+			System.out.print(array[i]);
+			
+		}
+		
+		
+		
+	}
+	public void Vectores4(){
+		int i, array[];
+		Scanner sc= new Scanner(System.in);
+		array = new int[10];
+		for( i=0;i<10;i++){
+			System.out.println("numero:  ");
+			array[i]=sc.nextInt();			
+		}
+		for(i=0;i<=4;i++){
+			System.out.println(array[i]);
+			System.out.println(array[9-i]);
+			
+		}		
+		
+	}
 	public static void main(String[]args){
 		tarea t1= new tarea();
 		
@@ -198,11 +331,11 @@ public class tarea {
 		//t1.Sueldos();
 		//t1.tablas();
 		//t1.numeritoPrimo();
-		
-		
-		
+		//t1.Serie();
+		//t1.Vectores();
+		//t1.Vectores1();
+		//t1.Vectores3();
+		//t1.Vectores4();
 	}
 
 }
-
-
