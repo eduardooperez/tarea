@@ -1,0 +1,53 @@
+Esenarios 
+
+
+Los escenarios describen las historias y el contexto detrás de por qué un usuario o grupo de usuarios específicos llega a su sitio. Toman nota de los objetivos y las preguntas que deben alcanzarse ya veces definen las posibilidades de cómo los usuarios pueden lograrlos en el sitio. Los escenarios son críticos tanto para el diseño de una interfaz como para las pruebas de usabilidad. 
+Un escenario puede estar definido literalmente como el guión de una obra, en administración es una herramienta para ordenar las alternativas futuras a partir de las cuales las decisiones pueden ser tomadas. (Chermack, 2006) 
+
+Cumplen un papel práctico instrumental que permite avanzar en un ámbito donde la situación de conocimiento no permite realizar modelos detallados (Gutman, 1995). 
+
+Cuando se elabora un esenario hay varias cosas que tenemos que tener encuenta:
+¿Quien es el usuario?
+¿Porque el usuario utiliza el sitio?
+¿Que metas quier tener?
+
+Cuando usar esenarios 
+Complejidad 
+Necesidad de combinar perspectiva de corto y largo plazo
+
+Mapeo de esenarios 
+
+
+
+
+
+
+------------------------------------------------------------------------------
+ Slide 1:  (titulo)Interfaces gestuales
+
+	(contenido)Como el nombre lo dice son interfaces que nos permite la interaccion con gestos ya sea con algun sensor de gestos o camara.
+
+(contenido)Las interfaces de gestos tienen el  objetivo de interpretar gestos humanos a través de algoritmos matemáticos. Los gestos pueden originarse de cualquier movimiento corporal o estado pero comúnmente se originan en la cara o en la mano.
+
+
+Slide 2 (titulo)Sensor De gestos
+
+(contenido)Para que sirve el sensor de gestos:
+ Es usado para detectar y gestos de las partes del cuerpo humano ya como manos, brazos , cara y cabeza .
+
+
+
+
+Slide 3 (titulo)Ejemplos de interfaces Gestuales
+Project Digits
+(Contenido)Se traza de una pulsera que detecta todos los movimientos de los dedos de la mano gracias a la emisión de un láser; enfrente una cámara lee los reflejos que le llegan y determina cuáles son los gestos. 
+
+
+Slide 4 (titulo)Ejemplos de interfaces Gestuales
+
+  (contenido)Kinect:
+Su tecnología se compone de una cámara y un sensor de profundidad, que mide mediante infrarrojos el relieve de los objetos. El dispositivo analiza y detecta un espacio definido en tres dimensiones, de tal manera que es capaz de seguir los movimientos, procesando la información (contiene un procesador propio) y enviándola al equipo central, habitualmente la consola de Microsoft.
+
+Slide 5(titulo)Conclucion 
+
+(contenido)Las interfaces gestuales estan surgiendo de manera mas constante en el campo de la tecnologia la cual no ayuda a tener una interaccion mas presiza ya sea con un video juego o con una computadora.
