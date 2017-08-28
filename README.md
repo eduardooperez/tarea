@@ -4,7 +4,29 @@ import java.util.Scanner;
 
 
 
+
 public class tarea {
+	
+	
+	
+	public void Holamundo(){
+		
+		
+		System.out.println("Hola mundo");
+	}
+	public void Series(){
+		for(int i =0;i<101;i++){
+			System.out.print(" ,"+i);			
+		}
+		for(int i =101;i!=0;i--){
+			
+		System.out.print(" ,"+i);			
+		}
+		for(int i=100;i<1000;i+=2){
+			
+			System.out.print(","+i);
+		}
+	}
 	public void DobleeEntero(){
 		int triple,doble;
 		Scanner scan= new Scanner(System.in);
@@ -320,6 +342,81 @@ public class tarea {
 		}		
 		
 	}
+	public void VectoresBi(){
+		int array[][] = new int[5][5];
+		for(int i =0;i<5;i++){
+			for(int j=0;j<5;j++){
+				array[i][j]=i+j;
+				
+			}
+			
+		}
+		for(int i=4;i>=0;i--){
+			for(int j=0;j<5;j++){
+				System.out.println(array[i][j]);
+				
+			}
+		}
+		
+	}
+	
+	public void VectoresBi1(){
+		
+		int [][] valores = {{1, 2, 3}, 
+				           {3 , 2 , 1}, 
+				           {5, 4, 2}};
+
+		int suma_colu = 0, suma_fila = 0;		
+
+
+
+				for(byte i = 0;i < valores.length;i++){
+					
+					for(byte j = 0; j < valores.length;j++){
+						
+						suma_colu += valores[i][j];
+					}
+					
+					
+				}
+				
+			for(byte j = 0;j < valores.length;j++){
+					
+					for(byte i = 0; i < valores.length;i++){
+						
+						suma_fila += valores[i][j];
+				System.out.println("valores [" + i +"][" + j + "] = " + valores[i][j]);
+					
+					}
+				}
+				
+			System.out.println(null+ "Suma de columnas : " + suma_colu);
+			System.out.println(null+ "Suma de filas : " + suma_fila);	
+			}
+	
+	public void VectoresBi2(){
+		int[][] va1 = new int [3][3];
+		int[][] va2 = new int [3][3];
+	int[][] suma = new int [3][3];
+		for(byte i = 0; i < va1.length;i++){
+			for(byte j = 0; j < va1[i].length;j++){
+				va1[i][j] = (int) (Math.random() * 98);
+				va2[i][j] = (int) (Math.random() * 98);
+				suma[i][j] = va1[i][j] + va2[i][j];
+		System.out.print("va1[" + i + "][" + j + "] = " + va1[i][j]);
+		System.out.print("va2[" + i + "][" + j + "] = " + va2[i][j]);
+		System.out.print("suma[" + i + "][" + j + "] = " + suma[i][j]);
+			}
+
+		}
+		
+	}
+	
+	public tarea(){
+		
+		System.out.println();
+		
+	}
 	public static void main(String[]args){
 		tarea t1= new tarea();
 		
@@ -336,6 +433,11 @@ public class tarea {
 		//t1.Vectores1();
 		//t1.Vectores3();
 		//t1.Vectores4();
+		//t1.VectoresBi();
+		//t1.VectoresBi1();
+		//t1.VectoresBi2();
+		//t1.Holamundo();
+		//t1.Series();
 	}
 
 }
